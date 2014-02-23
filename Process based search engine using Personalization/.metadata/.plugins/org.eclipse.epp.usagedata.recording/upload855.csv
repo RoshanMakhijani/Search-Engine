@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059260040
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059261292
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059277942
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059279494
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059279595
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1304059280553
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1304059282692
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1304059285417
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1304059286136
+closed,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1304059286151
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1304059287050
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1304059287050
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059288084
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059289075
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1304059289189
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1304059290322

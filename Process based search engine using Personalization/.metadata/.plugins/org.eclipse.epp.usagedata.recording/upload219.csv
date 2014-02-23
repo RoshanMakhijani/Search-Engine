@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1301582276930
+java.version,sysinfo,,,"1.6.0_02",1301582276930
+java.vm.info,sysinfo,,,"mixed mode",1301582276930
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1301582276930
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1301582276930
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1301582276930
+java.vm.specification.version,sysinfo,,,"1.0",1301582276930
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1301582276930
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1301582276930
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1301582277064
+started,bundle,org.eclipse.mylyn.monitor.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.monitor.ui",1301582277086
+started,bundle,org.eclipse.jdt.apt.core,3.3.201.R35x_v20090818-0235,"org.eclipse.jdt.apt.core",1301582277099
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.201.R35x_v20090818-0225,"org.eclipse.jdt.apt.pluggable.core",1301582277105
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1301582277768
+started,bundle,org.eclipse.wst.sse.ui,1.1.101.v200908261807,"org.eclipse.wst.sse.ui",1301582277774
+started,bundle,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.ui",1301582277775
+started,bundle,org.eclipse.jst.jsp.core,1.2.203.v200908241513,"org.eclipse.jst.jsp.core",1301582277825
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1301582277876
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1301582277880
+started,bundle,org.eclipse.wst.xsl.core,1.0.1.v200908101420,"org.eclipse.wst.xsl.core",1301582277887
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.300.v200904230730,"org.eclipse.jst.j2ee.ejb",1301582280400
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.300.v200903120000,"org.eclipse.jst.j2ee.jca",1301582280406
+started,bundle,org.eclipse.jst.jee.ejb,1.0.201.v200908101600,"org.eclipse.jst.jee.ejb",1301582280415
+started,bundle,org.eclipse.jst.jee.web,1.0.200.v200904130912,"org.eclipse.jst.jee.web",1301582280417
+started,bundle,org.eclipse.xsd,2.5.0.v200906151043,"org.eclipse.xsd",1301582280506

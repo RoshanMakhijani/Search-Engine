@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>Xplore</display-name>
+	<servlet>
+    <description></description>
+    <display-name>Create_process</display-name>
+    <servlet-name>Create_process</servlet-name>
+    <servlet-class>Create_process</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Create_process</servlet-name>
+    <url-pattern>/Create_process</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Process_Steps</display-name>
+    <servlet-name>Process_Steps</servlet-name>
+    <servlet-class>Process_Steps</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Process_Steps</servlet-name>
+    <url-pattern>/Process_Steps</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Add_Steps</display-name>
+    <servlet-name>Add_Steps</servlet-name>
+    <servlet-class>Add_Steps</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add_Steps</servlet-name>
+    <url-pattern>/Add_Steps</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>test</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>test</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Query</display-name>
+    <servlet-name>Query</servlet-name>
+    <servlet-class>Query</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PersonalizeGoogle</display-name>
+  	<servlet-name>PersonalizeGoogle</servlet-name>
+  	<servlet-class>
+  	PersonalizeGoogle</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PersonalGoogle</display-name>
+  	<servlet-name>PersonalGoogle</servlet-name>
+  	<servlet-class>
+  	PersonalGoogle</servlet-class>
+  </servlet>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>PersonalQuery</display-name>
+  	<servlet-name>PersonalQuery</servlet-name>
+  	<servlet-class>
+  	PersonalQuery</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Query</servlet-name>
+    <url-pattern>/Query</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PersonalizeGoogle</servlet-name>
+  	<url-pattern>/PersonalizeGoogle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PersonalGoogle</servlet-name>
+  	<url-pattern>/PersonalGoogle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PersonalQuery</servlet-name>
+  	<url-pattern>/PersonalQuery</url-pattern>
+  </servlet-mapping>
+<servlet>
+		<description>
+		</description>
+		<display-name>Login</display-name>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>
+		Login</servlet-class>
+	</servlet>
+<servlet>
+		<description>
+		</description>
+		<display-name>Logout</display-name>
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>
+		Logout</servlet-class>
+	</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>RedirectPersonalize</display-name>
+	<servlet-name>RedirectPersonalize</servlet-name>
+	<servlet-class>
+	RedirectPersonalize</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>FormServlet</display-name>
+	<servlet-name>FormServlet</servlet-name>
+	<servlet-class>
+	FormServlet</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>FormServlet1</display-name>
+	<servlet-name>FormServlet1</servlet-name>
+	<servlet-class>
+	FormServlet</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>Insertions</display-name>
+	<servlet-name>Insertions</servlet-name>
+	<servlet-class>
+	Insertions</servlet-class>
+</servlet>
+<servlet>
+	<description>
+	</description>
+	<display-name>Update2</display-name>
+	<servlet-name>Update2</servlet-name>
+	<servlet-class>
+	Update2</servlet-class>
+</servlet>
+<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>RedirectPersonalize</servlet-name>
+	<url-pattern>/RedirectPersonalize</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>FormServlet</servlet-name>
+	<url-pattern>/FormServlet</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>FormServlet1</servlet-name>
+	<url-pattern>/FormServlet1</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>Insertions</servlet-name>
+	<url-pattern>/Insertions</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+	<servlet-name>Update2</servlet-name>
+	<url-pattern>/Update2</url-pattern>
+</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>processhome.html</welcome-file>
+	</welcome-file-list>
+</web-app>

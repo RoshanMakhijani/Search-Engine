@@ -1,0 +1,162 @@
+
+
+import java.io.BufferedReader;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.ObjectOutputStream;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Login
+ */
+public class Login extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public Login() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		String username=request.getParameter("txtName");
+		String password=request.getParameter("password");
+		PrintWriter out=response.getWriter();
+		String name="";
+		PersonalGoogle.auth=false;
+		Connection connection =null;
+		//System.out.print("in oracle");
+		//String rdNew=request.getParameter("rdnewUser");
+		String newName=request.getParameter("txtNewUser");
+		if(newName.equals("New Name Here"))
+		{
+			try
+		
+		{
+			DriverManager.registerDriver(
+                    new oracle.jdbc.OracleDriver());
+
+				connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:oracl", "scott", "tiger");
+				Statement statement = connection.createStatement();
+				ResultSet rs= statement.executeQuery("select userID,name from Personalization where userName='"+username+"'");
+				while(rs.next())
+				{
+					String pass = rs.getString(1);
+					name=rs.getString(2);
+					if(pass.equals(password))
+					{
+						PersonalGoogle.auth=true;
+					}
+				}
+				if(PersonalGoogle.auth)
+				{
+					PersonalGoogle.userName=username;
+					PersonalGoogle.userID=password;
+					PersonalGoogle.name=name;
+					returnHomePage(out,name);
+				}
+				else
+				{
+					returnAuthenticate(out);
+				}
+		}
+		catch(SQLException sqlEx)
+		{
+			sqlEx.printStackTrace();
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+		finally
+		{
+			connection=null;
+		}
+		}
+		else
+		{
+			try{
+			DriverManager.registerDriver(
+                    new oracle.jdbc.OracleDriver());
+
+			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:oracl", "scott", "tiger");
+			//Statement statement = connection.createStatement();
+			BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
+			System.out.println("Enter the no. of documents");
+			Concount.tot_doc=Integer.parseInt(br.readLine());
+			Concount CC=new Concount();
+			CC.fuzzyCreator(CC);
+			ByteArrayOutputStream baos = new ByteArrayOutputStream();
+			ObjectOutputStream objOstream = new ObjectOutputStream(baos);
+			objOstream.writeObject(CC);
+			byte[] bArray = baos.toByteArray();
+			PreparedStatement objStatement = connection.prepareStatement("insert into Personalization(userName,userID,name,Concepts) values (?,?,?,?)");
+			objStatement.setString(1,username );
+			objStatement.setString(2,password );
+			objStatement.setString(3,newName );
+			objStatement.setBytes(4, bArray);
+			objStatement.execute();
+			returnHomePage(out,newName);
+			//statement.execute("insert into personalization values('"+username+"','"+password+"','"+newName+"','"+CC+"')");
+			}
+			catch(Exception e)
+			{
+				
+			}
+			finally
+			{
+				connection=null;
+			}
+			}
+
+	}
+
+	void returnHomePage(PrintWriter out,String name)
+	{
+		out.println("<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html xmlns='http://www.w3.org/1999/xhtml'>");
+		out.println("<head><meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' /><title>Xplore</title><link rel='shortcut icon' type='image/x-icon' href='favicon.ico'></link>");
+		out.println("</head><style type='text/css'>body {font:76% normal verdana,arial,tahoma;}#general{position: fixed;}h1, h2 {font-size:1em;}");
+		out.println("</style><body><table width='100%'><tr><td><font size=3'><a href='processhome.html' >Home</a></font>&nbsp;<font size='3'><a href='About.html' >About</a></font>&nbsp;");
+		out.println("<font size='3'><a href='partners.html' >Partners</a></font>&nbsp;<font size='3'><a href='Create_process.html' >Add Process </a></font>&nbsp;<font size='3'><a href='modify.html' >Modify Process </a></font></td><td align='right'><font size='3'>Welcome "+name+"&nbsp;&nbsp;<a href='Logout'>Sign Out</a>&nbsp;&nbsp;<a href='processhome.html' onClick='parent.location='mailto:roshanm89@gmail.com''>Contact Us</a></font></td>");
+		out.println("</tr></table><table align='center'><tr><td><object width='446' height='269' align='absmiddle'><param name='movie' value='finalBin.swf' /><param name='wmode' value='transparent'></param>");
+		out.println("<embed src='finalBin.swf' width='446' height='269' align='absmiddle' wmode='transparent'> </embed></object></td></tr></table><form action='RedirectPersonalize' method='get' name='frmQuery' id='frmQuery' >");
+		out.println("<table align='center'><tr><td colspan='2'><input name='txtQuery' type='text' size='50' style='font-size:16pt'/></td></tr><tr><td align='center'><input type='radio' name='type_of_search' value='personal_search' CHECKED>Personalized Search</input>");
+		out.println("<input type='radio' name='type_of_search' value='proc'>Process-Based Search</input></td><td align='right'><input name='butExp' type='submit' value='Explore It' align='right' style='font-size:16px; width:inherit'/></td>");
+		out.println("</tr></table></form></body></html>");
+
+	}
+	void returnAuthenticate(PrintWriter out)
+	{
+		out.println("<html><head><meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'><title>Xplore-Signin</title><link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>");
+		out.println("</head><body><h2>UserName and Password don't match</h2></br><form action='Login' method='get'><center><object width='100' height='75' align='absmiddle'><param name='movie' value='finallBin.swf' />");
+		out.println("<param name='wmode' value='transparent'></param><embed src='finalBin.swf' width='446' height='269' align='absmiddle' wmode='transparent'> </embed></object></center><strong>Be an Xplorer ..</strong>");
+		out.println("<center><table ><tr><td height='62' colspan='3' valign='top'><font size='3'><b>UserName :</b></font><input type='text' size='50' name='txtName'></td></tr></table><table><tr><td height='62' colspan='3' valign='top'><font size='3'><b>UserID :</b></font>");
+		out.println("<input type='password' size='50' name='password'></input></td><tr><td width='281' rowspan='2'><input type='submit' value='Sign In' style='font-size:16px;></input></td><td width='104' height='32' valign='top' ><input name='rdnewUser' type='radio' value='New User'>");
+		out.println("</input><input type='text' name='txtNewUser' value='New Name Here'></input></td><td width='1' rowspan='2' valign='top'></td></tr><tr><td height='26'>&nbsp;</td></tr></table></center></form></body></html>");
+	}
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}

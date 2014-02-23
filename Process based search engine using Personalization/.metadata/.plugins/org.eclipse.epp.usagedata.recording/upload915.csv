@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312028693
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312041255
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1336312043957
+error,log,,,"Error starting server J2EE Preview at localhost",1336312044435
+error,log,,,"Port 8080 required by J2EE Preview at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).",1336312044438
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312044532
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312044705
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.stop",1336312047887
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1336312048497
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1336312049864
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312054890
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312055060
+executed,command,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.run",1336312063193
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1336312063806
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1336312065751
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1336312069010
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312072569
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312078140
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1336312078510
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1336312078556
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1336312095324
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312095708
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1336312097799
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1336312099173
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1336312127027

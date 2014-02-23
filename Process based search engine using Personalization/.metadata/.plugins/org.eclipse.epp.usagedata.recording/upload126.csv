@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607506641
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607511967
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1297607515622
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1297607520155
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607520437
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607619221
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1297607621219
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607625955
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607627258
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1297607631567
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1297607631620
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1297607633813
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.refresh",1297607633974
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1297607652673
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1297607652673
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607654825
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607655926
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607656402
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607665951
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607667913
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607668809
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607669505
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607895252
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1297607898280
+activated,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1297607901097

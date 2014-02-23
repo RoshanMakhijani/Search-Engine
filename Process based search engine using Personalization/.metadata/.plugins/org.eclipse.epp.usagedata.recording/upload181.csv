@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+arch,sysinfo,,,"x86",1301323638410
+ws,sysinfo,,,"win32",1301323638410
+locale,sysinfo,,,"en_US",1301323638410
+processors,sysinfo,,,"2",1301323638410
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1301323638410
+java.runtime.version,sysinfo,,,"1.6.0_02-b06",1301323638410
+java.specification.name,sysinfo,,,"Java Platform API Specification",1301323638410
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1301323638410
+java.specification.version,sysinfo,,,"1.6",1301323638410
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1301323638410
+java.version,sysinfo,,,"1.6.0_02",1301323638410
+java.vm.info,sysinfo,,,"mixed mode",1301323638410
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1301323638410
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1301323638410
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1301323638410
+java.vm.specification.version,sysinfo,,,"1.0",1301323638410
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1301323638410
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1301323638410
+started,bundle,org.eclipse.equinox.frameworkadmin,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin",1301323638476
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin.equinox",1301323638487
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator.manipulator",1301323638580
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.0.v20090520-1905,"org.eclipse.equinox.p2.updatechecker",1301323638602
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1301323638880
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1301323638947
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1301323638950

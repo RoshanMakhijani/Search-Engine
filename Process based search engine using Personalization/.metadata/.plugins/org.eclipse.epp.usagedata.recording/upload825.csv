@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303924081900
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1303924083300
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303924083900
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1303924083900
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1303924085838
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924086778
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924089917
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924094246
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1303924094847
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924094913
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1303924094930
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303924138417
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1303924149404
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303924149628
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303924149720
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1303924167681
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924206565
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924536765
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924565956
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924633515
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303924635778
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303924635779
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924640977
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303924660524
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303924662076

@@ -1,0 +1,16 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1296991071896
+opened,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1296991072091
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1296991072151
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1296991074744
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1296991074787
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1296991075257
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1296991101155
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991133797
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991173177
+executed,command,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui.commands.OpenRunConfigurations",1296991173212
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991175348
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991176602
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991176649
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991180484
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1296991180777

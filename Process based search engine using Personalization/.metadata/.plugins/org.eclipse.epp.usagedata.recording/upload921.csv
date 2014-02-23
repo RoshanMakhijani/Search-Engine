@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1338619909685
+java.version,sysinfo,,,"1.6.0_02",1338619909685
+java.vm.info,sysinfo,,,"mixed mode",1338619909685
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1338619909685
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1338619909685
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1338619909685
+java.vm.specification.version,sysinfo,,,"1.0",1338619909685
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1338619909685
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1338619909685
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1338619909797
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1338619910247
+started,bundle,org.eclipse.jst.jsf.ui,1.2.1.v20090827,"org.eclipse.jst.jsf.ui",1338619910541
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1338619910740
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1338619910836
+started,bundle,org.eclipse.jst.j2ee.ejb,1.1.300.v200904230730,"org.eclipse.jst.j2ee.ejb",1338619911018
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1338619911070
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1338619911327
+closed,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1338619911327
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.closeAll",1338619911730
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1338619912191
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1338619912467
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1338619912468
+started,bundle,org.eclipse.jst.server.preview.adapter,1.1.0.v20090311b,"org.eclipse.jst.server.preview.adapter",1338619912618
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1338619913813
+started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1338619913815

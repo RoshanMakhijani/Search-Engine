@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1336311425218
+java.runtime.version,sysinfo,,,"1.6.0_02-b06",1336311425218
+java.specification.name,sysinfo,,,"Java Platform API Specification",1336311425218
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1336311425218
+java.specification.version,sysinfo,,,"1.6",1336311425218
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1336311425218
+java.version,sysinfo,,,"1.6.0_02",1336311425218
+java.vm.info,sysinfo,,,"mixed mode",1336311425218
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1336311425218
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1336311425218
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1336311425218
+java.vm.specification.version,sysinfo,,,"1.0",1336311425218
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1336311425218
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1336311425218
+started,bundle,org.eclipse.jem.workbench,2.0.201.v200908271530,"org.eclipse.jem.workbench",1336311425269
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1336311425458
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1336311425467
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1336311425594
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1336311426089
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1336311426094
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1336311426357
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1336311426444
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1336311426818
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1336311426954
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1336311427207

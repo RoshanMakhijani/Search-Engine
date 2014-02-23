@@ -1,0 +1,24 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607903095
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607931199
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297607933905
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608160720
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608167339
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608297478
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608299163
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608304187
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608346064
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297608351336
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297609529821
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297609530930
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297610816221
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297610816983
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297612641752
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297612648659
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297612649760
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297612650416
+error,log,,,"Unhandled event loop exception during blocked modal context.",1297612650641
+stopped,bundle,org.eclipse.jst.ws.axis.creation.ui,1.0.406.v200903031852,"org.eclipse.jst.ws.axis.creation.ui",1297612651726
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.ui,1.0.405.v200901261650,"org.eclipse.jst.ws.axis.consumption.ui",1297612651751
+stopped,bundle,org.eclipse.jst.ws.axis.consumption.core,1.0.306.v200810082309,"org.eclipse.jst.ws.axis.consumption.core",1297612651833
+stopped,bundle,org.eclipse.jst.ws.axis2.creation.ui,1.0.103.v200807162242,"org.eclipse.jst.ws.axis2.creation.ui",1297612651997

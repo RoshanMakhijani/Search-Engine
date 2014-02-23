@@ -1,0 +1,12 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1297447296380
+stopped,bundle,org.eclipse.wst.wsi,1.0.305.v200902181431,"org.eclipse.wst.wsi",1297447296381
+stopped,bundle,org.eclipse.wst.ws,1.1.103.v200903111822,"org.eclipse.wst.ws",1297447296382
+stopped,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.300.v200902052230,"org.eclipse.jst.j2ee.webservice.ui",1297447296382
+stopped,bundle,org.eclipse.jst.j2ee.webservice,1.1.300.v200901220600,"org.eclipse.jst.j2ee.webservice",1297447296382
+stopped,bundle,org.eclipse.wst.ws.parser,1.0.402.v200901220107,"org.eclipse.wst.ws.parser",1297447296384
+stopped,bundle,commonj.sdo,2.1.1.v200905221342,"commonj.sdo",1297447296384
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws.ui,1.2.1.v200906230955,"org.eclipse.datatools.enablement.oda.ws.ui",1297447296385
+stopped,bundle,org.eclipse.datatools.enablement.oda.ws,1.2.1.v200907300941,"org.eclipse.datatools.enablement.oda.ws",1297447296386
+stopped,bundle,org.eclipse.wst.wsdl,1.2.1.v200908101510,"org.eclipse.wst.wsdl",1297447296387
+stopped,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1297447296387

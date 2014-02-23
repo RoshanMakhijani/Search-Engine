@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module context="testing" name="testing" path="D:/Sanjay/Eclipse Workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/testing" type="static"/>
+</server>

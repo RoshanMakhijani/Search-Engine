@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<modules>
+  <module moduleId="org.eclipse.jst.j2ee.server:Personalization" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.j2ee.server:Xplore" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.jst.jee.server:SEARCH ENG" serverId="Tomcat v6.0 Server at localhost"/>
+  <module moduleId="org.eclipse.wst.web.internal.deployables.static:testing" serverId="J2EE Preview at localhost"/>
+</modules>

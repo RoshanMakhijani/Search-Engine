@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.name,sysinfo,,,"Java Platform API Specification",1297446711348
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1297446711348
+java.specification.version,sysinfo,,,"1.6",1297446711348
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1297446711348
+java.version,sysinfo,,,"1.6.0_02",1297446711348
+java.vm.info,sysinfo,,,"mixed mode",1297446711348
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1297446711348
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1297446711348
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1297446711348
+java.vm.specification.version,sysinfo,,,"1.0",1297446711348
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1297446711348
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1297446711348
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1297446711353
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1297446711430
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1297446711433
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1297446711498
+started,bundle,org.eclipse.jdt.apt.core,3.3.201.R35x_v20090818-0235,"org.eclipse.jdt.apt.core",1297446711523
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.201.R35x_v20090818-0225,"org.eclipse.jdt.apt.pluggable.core",1297446711539
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1297446711545
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1297446711560
+started,bundle,org.eclipse.wst.xsl.core,1.0.1.v200908101420,"org.eclipse.wst.xsl.core",1297446711577
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1297446711596
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1297446711607
+started,bundle,org.eclipse.wst.dtd.core,1.1.300.v200904181727,"org.eclipse.wst.dtd.core",1297446711619
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.300.v200903120000,"org.eclipse.jst.j2ee.jca",1297446711632

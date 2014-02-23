@@ -1,0 +1,85 @@
+<html>
+<head><h2><b>Create A Process</b></h2>
+</head>
+
+<body>
+
+<script type="text/javascript" language="javascript">
+function validate()
+{
+if (document.Process_form.p_title.value.length < 2)
+{
+alert("Please enter a title for the Process");
+return false; 
+}
+var myindex=document.Process_form.p_category.selectedIndex;
+if (myindex<0) 
+{
+alert("\nYou must make a selection for the Process Category.");
+document.Process_form.p_category.focus();
+return false;
+}
+if (document.Process_form.s_title.value.length < 2)
+{
+alert("Please enter a Step");
+return false; 
+}
+return true;
+}
+</script> 
+
+
+<form name="Process_form" method="get" action="Create_process">
+<table>
+<tr>
+<td><b>*Title</b></td>
+<td><input type=text name=p_title size=50></td>
+</tr> 
+
+<tr>
+<td>*Category</td>
+<td>
+<select name=p_category size="1">
+  <option value="Education">Education</option>
+  <option value="Arts & Entertainment">Arts and Entertainment</option>
+  <option value="Cars">Cars</option>
+  <option value="Technology">Technology</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Description</td>
+<td><textarea name=p_desc rows=3></textarea></td>
+</tr>
+
+<tr>
+</table>
+
+
+<hr/>
+
+<table>
+<tr>
+<td><b>*Step 1: </b></td>
+<td><input type=text name=s_title size=50></td>
+</tr>
+<tr>
+<td>Recommended URL: </td>
+<td><input type=text name=s_url value="http://" ></td>
+</tr>
+<tr>
+<td>Description</td>
+<td><textarea name=s_desc rows=3></textarea></td>
+</tr>
+
+<tr>
+<td><input type=reset name="" value="Reset"></td>
+</tr>
+</table>
+<hr/>
+<input type=submit name="ip" value="Create Process" onClick="return validate();">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1303729759416
+closed,editor,org.eclipse.wst.html.ui,1.0.401.v200908111935,"org.eclipse.wst.html.core.htmlsource.source",1303729759416
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303729784890
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303729808939
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303729809384
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303729811772
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303729846483
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303729851453
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303730182364
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303730187442
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303730197818
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303730200928
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303730226404
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1303730244426
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1303730261927
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1303730263907
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730293367
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730299637
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730316557
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730318727
+started,bundle,org.eclipse.wst.common.environment,1.0.301.v200908101600,"org.eclipse.wst.common.environment",1303730345027
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730345217
+started,bundle,org.eclipse.emf.codegen,2.5.0.v200906151043,"org.eclipse.emf.codegen",1303730350237
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1303730350517
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1303730350967

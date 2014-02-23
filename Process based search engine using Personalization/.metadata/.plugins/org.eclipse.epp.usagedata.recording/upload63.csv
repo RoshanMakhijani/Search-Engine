@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297438662032
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439758116
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439758832
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439764678
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439765360
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439849085
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439855622
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439855875
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297439856354
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444590200
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444636099
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444645314
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444645681
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1297444648105
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444655809
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444656550
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444657473
+error,log,,,"Could not acquire children from extension: org.eclipse.jst.jee.ui.web",1297444667332
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297444671792
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1297444672572
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444672755
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1297444672826
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1297444672827
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444676875
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1297444714118

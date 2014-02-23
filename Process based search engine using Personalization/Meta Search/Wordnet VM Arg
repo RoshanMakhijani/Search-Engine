@@ -1,0 +1,3 @@
+-Dwordnet.database.dir=C:\Program Files (x86)\WordNet\2.1\dict\
+
+in Run config VM Arg  paste the above

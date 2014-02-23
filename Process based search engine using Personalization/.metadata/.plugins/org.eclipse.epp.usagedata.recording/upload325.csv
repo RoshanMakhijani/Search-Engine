@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.version,sysinfo,,,"1.6",1301893685490
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1301893685490
+java.version,sysinfo,,,"1.6.0_02",1301893685490
+java.vm.info,sysinfo,,,"mixed mode",1301893685490
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1301893685490
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1301893685490
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1301893685490
+java.vm.specification.version,sysinfo,,,"1.0",1301893685490
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1301893685490
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1301893685490
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1301893685581
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1301893686150
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1301893686787
+started,bundle,org.eclipse.jst.jsf.ui,1.2.1.v20090827,"org.eclipse.jst.jsf.ui",1301893687099
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1301893687100
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1301893687101
+started,bundle,org.eclipse.wst.wsi.ui,1.0.500.v200901141851,"org.eclipse.wst.wsi.ui",1301893687653
+started,bundle,org.eclipse.mylyn.tasks.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.tasks.ui",1301893687952
+started,bundle,org.eclipse.mylyn.team.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.team.ui",1301893688015
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1301893688144
+started,bundle,org.eclipse.wst.wsdl.validation,1.1.401.v200902271605,"org.eclipse.wst.wsdl.validation",1301893688171
+started,bundle,org.eclipse.wst.xsd.core,1.1.401.v200903020335,"org.eclipse.wst.xsd.core",1301893688177
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1301893688396
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1301893688404
+started,bundle,org.eclipse.jst.j2ee.jca,1.1.300.v200903120000,"org.eclipse.jst.j2ee.jca",1301893688550

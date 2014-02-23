@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1300024118892
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1300024125332
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1300024125622
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1300024125718
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1300024133334
+opened,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1300024133596
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1300024133697
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1300024145671
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1300024145750
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1300024146130
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1300024146349
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1300024148871
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024151468
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024176834
+activated,view,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.ProjectExplorer",1300024179753
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024182655
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024359586
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024372360
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024381374
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024663752
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024669422
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024670667
+closed,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1300024670860
+error,log,,,"Unhandled event loop exception during blocked modal context.",1300024671012
+error,log,,,"Unhandled event loop exception during blocked modal context.",1300024671013

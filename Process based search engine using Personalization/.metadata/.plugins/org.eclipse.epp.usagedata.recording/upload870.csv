@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.wst.jsdt.core,1.0.201.v200908101420,"org.eclipse.wst.jsdt.core",1304100384365
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1304100384367
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1304100384367
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.200.v200905120445,"org.eclipse.wst.jsdt.web.core",1304100384383
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1304100384407
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1304100384407
+started,bundle,org.eclipse.wst.sse.core,1.1.401.v200909172215,"org.eclipse.wst.sse.core",1304100384423
+started,bundle,org.eclipse.wst.validation,1.2.102.v200905201610,"org.eclipse.wst.validation",1304100384441
+started,bundle,org.eclipse.wst.web,1.1.301.v200909021400,"org.eclipse.wst.web",1304100384459
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.102.v200903070248,"org.eclipse.wst.ws.service.policy.ui",1304100384460
+started,bundle,org.eclipse.wst.xml.core,1.1.401.v200908242115,"org.eclipse.wst.xml.core",1304100384506
+os,sysinfo,,,"win32",1304100384511
+arch,sysinfo,,,"x86",1304100384511
+ws,sysinfo,,,"win32",1304100384511
+locale,sysinfo,,,"en_US",1304100384511
+processors,sysinfo,,,"2",1304100384511
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1304100384511
+java.runtime.version,sysinfo,,,"1.6.0_02-b06",1304100384511
+java.specification.name,sysinfo,,,"Java Platform API Specification",1304100384511
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1304100384511
+java.specification.version,sysinfo,,,"1.6",1304100384511
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1304100384511
+java.version,sysinfo,,,"1.6.0_02",1304100384511
+java.vm.info,sysinfo,,,"mixed mode",1304100384511
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1304100384511

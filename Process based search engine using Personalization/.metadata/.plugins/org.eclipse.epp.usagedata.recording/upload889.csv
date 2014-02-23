@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006233928
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006236892
+started,bundle,org.eclipse.jst.server.generic.core,1.0.506.v20090817,"org.eclipse.jst.server.generic.core",1305006237204
+started,bundle,org.eclipse.jst.server.preview.adapter,1.1.0.v20090311b,"org.eclipse.jst.server.preview.adapter",1305006237219
+started,bundle,org.eclipse.jst.server.tomcat.ui,1.1.102.v20090424,"org.eclipse.jst.server.tomcat.ui",1305006238171
+opened,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1305006238483
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1305006238764
+started,bundle,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser",1305006242556
+opened,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1305006243460
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1305006243507
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1305006286097
+activated,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1305006296265
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1305006296325
+closed,editor,org.eclipse.ui.browser,3.2.300.v20090526,"org.eclipse.ui.browser.editor",1305006296325
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006300837
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006382903
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006401685
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006414867
+started,bundle,org.eclipse.wst.xsl.debug.ui,1.0.0.v200904240436,"org.eclipse.wst.xsl.debug.ui",1305006419656
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006425069
+error,log,,,"Several ports (8080, 8009) required by Tomcat v6.0 Server at localhost are already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).",1305006425522
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006433104
+activated,view,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui.ServersView",1305006433323
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006435133
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1305006436022

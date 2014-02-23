@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.runtime.version,sysinfo,,,"1.6.0_02-b06",1302758534303
+java.specification.name,sysinfo,,,"Java Platform API Specification",1302758534303
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1302758534303
+java.specification.version,sysinfo,,,"1.6",1302758534303
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1302758534303
+java.version,sysinfo,,,"1.6.0_02",1302758534303
+java.vm.info,sysinfo,,,"mixed mode",1302758534303
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1302758534303
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1302758534303
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1302758534303
+java.vm.specification.version,sysinfo,,,"1.0",1302758534303
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1302758534303
+java.vm.version,sysinfo,,,"1.6.0_02-b06",1302758534303
+started,bundle,org.eclipse.jem.workbench,2.0.201.v200908271530,"org.eclipse.jem.workbench",1302758534521
+started,bundle,org.eclipse.mylyn.commons.net,3.2.0.v20090617-0100-e3x,"org.eclipse.mylyn.commons.net",1302758534855
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1302758535012
+started,bundle,org.eclipse.mylyn.commons.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.commons.ui",1302758535749
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.core",1302758536509
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.bugzilla.ui",1302758536979
+started,bundle,org.eclipse.team.cvs.ui,3.3.201.R35x_v20090826-0905,"org.eclipse.team.cvs.ui",1302758537635
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1302758537709
+started,bundle,org.eclipse.jst.server.core,1.2.0.v20090421,"org.eclipse.jst.server.core",1302758537732
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1302758538376
+started,bundle,org.eclipse.mylyn.context.core,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.core",1302758538555
+started,bundle,org.eclipse.mylyn.context.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.context.ui",1302758538587

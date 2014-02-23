@@ -1,0 +1,77 @@
+
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Vector;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class Query
+ */
+public class PersonalQuery extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public PersonalQuery() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		String query=request.getParameter("txtQuery");
+		out.println("<html>");
+		out.println("<head>");
+		out.println("<title>Xplore-'"+query+"'</title>");
+		out.println("<link rel='shortcut icon' type='image/x-icon' href='favicon.ico'>");
+		out.println("</head>");
+		out.println("<body>");
+		out.println("<table><tr><td><font size='4'><a href='processhome.html'>Home</a></font>&nbsp;");
+		//out.println("<img src='images/but1.gif' alt='' name='Home' width='117' height='24' border='0' id='Home' /></a>");
+		out.println("</td><td><font size='4'><a href='About.html'>About</a><font>&nbsp;");
+		//out.println("<img src='images/butAbout1.gif'  name='About' width='117' height='24' border='0' id='About' onload='' /></a>");
+		out.println("</td><td><font size='4'><a href='partners.html'>Partners</a></font>&nbsp;");
+		out.println("</td><td><font size='4'><a href='Create_process.html'>Add&nbsp;Process </a></font>");
+		//out.println("<img src='images/butPartners1.gif' name='Partners' width='117' height='24' border='0' id='Partners' /></a>");
+		out.println("</td><td align='right' width='100%'><font size='4'>"+PersonalGoogle.name+"&nbsp;&nbsp;</font><font size='4'><a href='Logout'>Sign Out</a>&nbsp;&nbsp;<a href='processhome.html' onClick='parent.location='mailto:pmoulick7@gmail.com,sanjurm16@gmail.com,roshanm89@gmail.com''>Contact Us</a></font></td></tr></table>");
+		//	out.println("</td><td align='right' width='100%'><font size='4'><a href='Authenticate.html'>Sign In</a>&nbsp;&nbsp;<a href='processhome.html' onClick='parent.location='mailto:pmoulick7@gmail.com,sanjurm16@gmail.com,roshanm89@gmail.com''>Contact Us</a></font></td></tr></table>");
+		/*out.println("<table align='left'><tr><td><object width='200' height='150' align='absmiddle'><param name='movie' value='fianlBin.swf' />");
+		out.println("<param name='wmode' value='transparent'><embed src='finalBin.swf' width='200' height='150' align='absmiddle' wmode='transparent'></embed>");
+		out.println("</object><br/></td></tr><tr><td><form action='/Personalization/Query' method='get' name='frmQuery' id='frmQuery' ><input name='txtQuery' type='text' size='50' style='font-size:13pt'/>&nbsp;&nbsp;&nbsp;&nbsp;<input name='butExp' type='submit' value='Explore' width='50' style='font-size:13px; width:inherit'/></form></td></tr></table><br/>");*/
+		out.println("<object width='200' height='150' align='absmiddle'><param name='movie' value='fianlBin.swf' />");
+		out.println("<param name='wmode' value='transparent'><embed src='finalBin.swf' width='200' height='150' align='absmiddle' wmode='transparent'></embed>");
+		out.println("</object><br/><form action='/Xplore/RedirectPersonalize' method='get' name='frmQuery' id='frmQuery' ><input name='txtQuery' type='text' size='50' style='font-size:13pt'/>&nbsp;&nbsp;&nbsp;&nbsp;<input name='butExp' type='submit' value='Explore It' width='50' style='font-size:13px; width:inherit'/><br><input type='radio' name='type_of_search' value='personal_search' CHECKED>Personalized Search</input><input type='radio' name='type_of_search' value='proc'>Process-Based Search</input></form><br/>");
+		PersonalGoogle mg=new PersonalGoogle();
+		//System.out.println("Enter the Query");
+		//BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		//String mquery=br.readLine();
+		
+			query=query.replaceAll(" ", "%20");
+			System.out.println(query);
+			//boolean authenticated=false;
+			//if(!request.getParameter("butExp").equals("Explore"))
+				//authenticated=true;
+			mg.fire(query,out);
+			
+		
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	}
+
+}
